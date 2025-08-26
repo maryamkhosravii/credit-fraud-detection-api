@@ -38,7 +38,7 @@ class Input (BaseModel):
     Amount: float
     
 
-model = joblib.load ("mymodel.pkl")
+model = joblib.load ("best_model.pkl")
 
 
 @app.post("/predict/")
